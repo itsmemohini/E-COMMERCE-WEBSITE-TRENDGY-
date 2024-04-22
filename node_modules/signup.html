@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Login.css">
+    
+</head>
+<style>
+    body {
+  background-color: #2b2e32;
+}
+.frm {
+  margin: auto;
+  margin-top: 10px;
+  padding: auto;
+  height: 675px;
+  width: 400px;
+  border: 2px solid #303337;
+  border-radius: 1cap;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #303337;
+  color: yellow;
+  box-shadow: rgb(10, 10, 10) 2px 2px 30px;
+  text-shadow: rgb(200, 223, 243) 2px 2px 10px;
+}
+.frm h1 {
+  margin: 50px;
+  color: aqua;
+  text-shadow: rgb(10, 134, 244) 2px 2px 20px;
+  
+}
+
+.un{
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+
+    border: 2px solid #303337;
+    border-radius: 1cap;
+    
+    margin: 0px;
+    
+    box-shadow: rgb(22, 22, 22) 2px 2px 20px;
+}
+.un :placeholder-shown{
+    background-color:#303337;
+    border-radius: 0.5cap;
+    
+}
+.pas{
+    height: 30px;
+    text-align:center;
+    padding: 5px;
+
+    border: 2px solid #303337;
+    border-radius: 1cap;
+    
+    margin: 0px;
+    
+    box-shadow: rgb(22, 22, 22) 2px 2px 20px;
+}
+.pas :placeholder-shown{
+    background-color:#303337;
+    border-radius: 0.5cap;
+}
+.txt {
+    width: 350px;
+    height: 100px;
+    border: 2px solid #303337;
+    border-radius: 1cap;
+    
+    margin: -10px;
+    margin-left:px;
+    
+    box-shadow: rgb(4, 4, 4) 2px 2px 10px;
+  }
+  .txt h1 {
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+    color: rgb(219, 215, 215);
+    text-shadow: rgb(230, 195, 131) 2px 2px 10px;
+  }
+.btn button{
+    height:40px;
+    width: 80px;
+    border-radius:1cqb;
+    color: white;
+    box-shadow: rgb(123, 147, 243) 0px 0px 10px;
+    background-color: rgb(55, 55, 244);
+}
+.btn p {
+    text-decoration: none;
+}
+.btn button:hover{
+    height:40px;
+    width: 80px;
+    border-radius:1cqb;
+    color: white;
+    box-shadow: rgb(123, 147, 243) 0px 0px 20px;
+    background-color: rgb(15, 15, 240);
+}
+p button{
+    text-decoration: none;
+    height:30px;
+    width: 80px;
+    border-radius:1cqb;
+    color: white;
+    box-shadow: rgb(123, 147, 243) 0px 0px 10px;
+    background-color:#bcc0c6;
+
+}
+</style>
+
+<body>
+    <div class="frm">
+        <form>
+            <h1>Login</h1>
+            <div class="un">
+                <label id="Name"> UserName : </label>
+                <input type="text" id="name" placeholder="username">
+            </div>
+            <br><br>
+            <br>
+            <div class="pas">
+                <label id="pass">Password  :</label>
+                <input type="password" id="pass" placeholder="password">
+            </div>
+
+            <br><br><br>
+            <div class="btn">
+                <button id="btn">Login</button><br><br>
+
+            </div>
+            <br><br><br>
+            <div class="txt">
+                <h1>! Welcome Back !</h1>
+            </div>
+            <br>
+            <p>Don't hava account ? <button><a href="signup.html">Sign Up</button></a></p>
+        </form>
+    </div>
+</body>
+
+</html>
